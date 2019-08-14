@@ -1,0 +1,5 @@
+project(LBP)
+find_package(OpenCV REQUIRED)
+add_executable(LBP LBP)
+target_link_libraries(LBP ${OpenCV_LIBS})
+cmake_minimum_required(VERSION 2.8)
